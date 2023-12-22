@@ -1,0 +1,32 @@
+/* CSS Global do Website da Pamirida, minha querida Pamilinha */
+
+body {
+  transition: 1000ms;
+  font-family: Helvetica, Arial;
+}
+
+.container {
+  transition: 1000ms;
+}
+
+h1, h2, h3, button, a {
+  font-family: Arial;
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+}
+
+.invisivel {
+  display: none;
+}
+
+.visivel {
+  display: block;
+}
+
+.letra {
+  font-size: 1.7em;
+  font-weight: 400;
+  padding: auto 30px auto 30px;
+}
