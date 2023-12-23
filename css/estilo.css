@@ -30,7 +30,7 @@ h1 {
 }
 
 .btn-group .button:hover {
-  font-weight: bold, italic;
+  font-weight: bold;
   background-color: red;
 }
 
