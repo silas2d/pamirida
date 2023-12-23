@@ -54,6 +54,7 @@ h1 {
 .btn-group .button2:hover {
   color: white;
   background: green;
+  font-weight: bold;
   -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
   box-shadow: 0 0 5px green, 0 0 25px green, 0 0 50px green, 0 0 200px green;
 }
