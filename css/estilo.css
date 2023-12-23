@@ -39,74 +39,23 @@ h1 {
 }
 
 .btn-group .button2 {
-  font-size: 2em;
+  border: none;
+  color: #03e9f4;
   cursor: pointer;
-  font-weight: 900;
-  background: none;
-  perspective: 2em;
-  letter-spacing: 1em;
-  padding: 0.35em 1em;
-  border-radius: 0.45em;
-  font-family: Helvetica;
-  color: var(--glow-color);
-  border: 0.15em solid var(--glow-color);
-  animation: border-flicker 2s linear infinite;
-  box-shadow: inset 0px 0px 0.5em 0px var(--glow-color), 0px 0px 0.5em 0px var(--glow-color);
-  -moz-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color), 0px 0px 0.5em 0px var(--glow-color);
-  -webkit-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color), 0px 0px 0.5em 0px var(--glow-color);
-}
-
-.led-txt {
-  float: left;
-  margin-right: -0.8em;
-  -webkit-text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em var(--glow-color);
-  -moz-text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em var(--glow-color);
-  text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em var(--glow-color);
-  animation: text-flicker 3s linear infinite;
-}
-
-.btn-group .button2::before {
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  opacity: 0.7;
-  filter: blur(1em);
-  pointer-events: none;
-  background: var(--glow-color);
-  transform: translateY(120%) rotateX(95deg) scale(1, 0.35);
-}
-
-.btn-group .button2::after {
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  opacity: 0;
-  z-index: -1;
-  transition: opacity 100ms linear;
-  background-color: var(--glow-color);
-  box-shadow: 0 0 2em 0.2em var(--glow-color);
+  transition: 0.5s;
+  overflow: hidden;
+  font-weight: bold;
+  padding: 25px 30px;
+  border-radius: 5px;
+  letter-spacing: 4px;
+  background-color: red;
 }
 
 .btn-group .button2:hover {
-  opacity: 1;
-  animation: none;
-  text-shadow: none;
-  color: rgba(0, 0, 0, 0.8);
-}
-
-.btn-group .button2:hover .led-txt {
-  animation: none;
-}
-
-.btn-group .button2:hover:before {
-  opacity: 1;
-  filter: blur(1.5em);
-}
-
-.btn-group .button2:hover:after {
-  opacity: 1;
+  color: #050801;
+  background: #03e9f4;
+  -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 200px #03e9f4;
 }
 
 img {
