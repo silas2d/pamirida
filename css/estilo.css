@@ -1,9 +1,10 @@
 body {
+  color: black;
   font-family: Helvetica;
 }
 
 h1, h2, h3 {
-  color: black;
+  color: white;
   font-family: Arial;
 }
 
