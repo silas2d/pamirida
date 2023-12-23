@@ -37,9 +37,9 @@ h1 {
 img {
   position: center;
   pointer-events: none;
-  animation:spin 4s linear infinite;
-  -moz-animation:spin 4s linear infinite;
-  -webkit-animation:spin 4s linear infinite;
+  animation:spin 6s linear infinite;
+  -moz-animation:spin 6s linear infinite;
+  -webkit-animation:spin 6s linear infinite;
 }
 
 @-moz-keyframes spin {
